@@ -1,0 +1,54 @@
+/*LOGO AND NAV*/
+body {
+    background-color:white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 2%
+}
+
+.nav links, li {
+    display: inline-block;
+    padding: 0px 40px
+}
+
+.blue, a {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: black; 
+}
+
+.blue a:hover {
+    color: #0065fc;
+    padding-top: 35.5px; 
+    border-top-style: solid;
+    border-top-width: 2px;
+}
+
+#blue a {
+    font-weight: bold;
+    color:#0065fc;
+}
+
+#blue a:hover {
+    color: #deebff;
+}
+
+/*Header and Search bar*/
+section {
+    padding-left: 15px; 
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    /*position: absolute;*/
+    bottom: 630px;
+}

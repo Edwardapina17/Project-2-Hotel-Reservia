@@ -49,6 +49,10 @@ h1 {
 h3 {
     font-family: 'Raleway', sans-serif;
     font-weight: lighter;
-    /*position: absolute;*/
-    bottom: 630px;
+}
+
+i {
+    color: black;
+    background-color: lightgrey;
+    borde
 }

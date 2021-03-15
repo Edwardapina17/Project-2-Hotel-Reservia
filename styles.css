@@ -54,5 +54,26 @@ h3 {
 i {
     color: black;
     background-color: lightgrey;
-    borde
+    display: inline;
+    position: relative;
+    width: 45px;
+    height: 45px;
+    border-radius: 15px 0px 0px 15px;
+
+}
+
+input {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    width: 150px;
+    height: 25px;
+}
+
+button {
+    background-color: #0065fc;
+}
+
+
+i input button {
+    display: inline-block;
 }

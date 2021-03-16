@@ -51,11 +51,30 @@ h3 {
     font-weight: lighter;
 }
 
+.align {
+    display: flex;
+    background-color: #efefef;
+    width: 45px;
+    height: 45px;
+    border-radius: 15px 0px 0px 15px;
+}
+
+
+
+/*di {
+    background-color: lightgray;
+    position: relative;
+    border-radius: 10px 0px 0px 10px;
+    width: 45px;
+    height: 45px;
+}*/
+
 i {
     color: black;
-    background-color: lightgrey;
     display: inline;
-    position: relative;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 15.9px;
     width: 45px;
     height: 45px;
     border-radius: 15px 0px 0px 15px;
@@ -64,16 +83,27 @@ i {
 
 input {
     font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
     color: black;
-    width: 150px;
-    height: 25px;
+    margin-left: 45px;
+    border: 1px #efefef solid;
+    width: 175px;
+    height: 40.8px;
+    padding-left: 15px;
 }
 
 button {
     background-color: #0065fc;
-}
-
-
-i input button {
-    display: inline-block;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 194px;
+    border: none;
+    border-radius: 0px 15px 15px 0px;
+    width: 75px;
+    height: 45px;
+    margin: 0px 0px 0px 0px;
+    padding: 15px 15px 15px 15px;
 }

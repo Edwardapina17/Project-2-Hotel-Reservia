@@ -111,16 +111,60 @@ button {
 /*filters*/
 .filter {
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
     margin-top: 20px;
 }
 p {
     font-family: 'Raleway', sans-serif;
     font-weight: bolder;
+    font-size: 15px;
 }
 
-.oval {
+
+#low {
     background-color: white;
     color: black;
     border: 1px #efefef solid;
+    border-radius: 20px 20px 20px 20px;
+    width: 125px;
+    height: 33px;
+    padding: 5px 0px 5px 25px;
+}
+
+.money {
+    background-color: #deebff;
+    border-radius: 50px;
+    border: 0px #deebff solid;
+    width: 33px;
+    height: 33px;
+    margin-left: 50px;
+}
+
+/*#fam {
+    background-color: white;
+    color: black;
+    border: 1px #efefef solid;
+}
+
+#rom {
+    background-color: white;
+    color: black;
+    border: 1px #efefef solid;
+}
+
+#pet {
+    background-color: white;
+    color: black;
+    border: 1px #efefef solid;
+}
+*/
+.oval {
+    /*background-color: white;
+    color: black;
+    border: 1px #efefef solid;
+    border-radius: 20px 20px 20px 20px;
+    width: 175px;
+    height: 35px;*/
+    margin: 5px 15px 25px 15px;
+    /*padding: 5px 5px 5px 15px;*/
 }

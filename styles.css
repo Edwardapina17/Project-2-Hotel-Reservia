@@ -107,3 +107,20 @@ button {
     margin: 0px 0px 0px 0px;
     padding: 15px 15px 15px 15px;
 }
+
+/*filters*/
+.filter {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+}
+
+.oval {
+    background-color: white;
+    color: black;
+    border: 1px #efefef solid;
+}

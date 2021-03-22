@@ -1,6 +1,7 @@
 /*LOGO AND NAV*/
 body {
     background-color:white;
+    /* margin: 0px 25px 0px 25px; */
 }
 
 header {
@@ -111,12 +112,14 @@ button {
     justify-content: flex-start;
     flex-direction: row;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 #filters{
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
+    font-size: 15;
+    margin: 1px 0px 0px 0px;
 }
 
 .money {
@@ -126,7 +129,7 @@ button {
     border-radius: 50px 50px;
     width: 33px;
     height: 33px;
-    margin-left: 30px;
+    margin: 0px 0px 0px 30px;
 }
 
 #bill {
@@ -136,13 +139,97 @@ button {
 }
 
 #low {
-    width: 110px;
+    width: 115px;
     height: 33px;
     border: 1px #efefef solid;
     border-radius: 50px;
     background-color: white;
     color: black;
     margin: 0px 0px 0px 30px;
-    padding: 0px 0px 0px 20px;
+    padding: 0px 0px 0px 25px;
+    font-size: 13px;
+}
+
+.fam {
+    display: inline;
+    position: absolute;
+    background-color: #deebff;
+    border-radius: 50px 50px;
+    width: 33px;
+    height: 33px;
+    margin-left: 30px; 
+}
+
+#child {
+    color: #0065fc;
+    margin: 10px 0px 0px 11px;
+    font-size: 12px; 
+}
+
+#friends {
+    width: 145px;
+    height: 33px;
+    border: 1px #efefef solid;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    margin: 0px 0px 0px 30px;
+    padding: 0px 0px 0px 25px;
+    font-size: 12px;
+}
+
+.love {
+    display: inline;
+    position: absolute;
+    background-color: #deebff;
+    border-radius: 50px 50px;
+    width: 33px;
+    height: 33px;
+    margin-left: 30px; 
+}
+
+#rom {
+    color: #0065fc;
+    margin: 10px 0px 0px 11px;
+    font-size: 12px; 
+}
+
+#heart {
+    width: 105px;
+    height: 33px;
+    border: 1px #efefef solid;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    margin: 0px 0px 0px 30px;
+    padding: 0px 0px 0px 25px;
+    font-size: 12px;
+}
+
+.animal {
+    display: inline;
+    position: absolute;
+    background-color: #deebff;
+    border-radius: 50px 50px;
+    width: 33px;
+    height: 33px;
+    margin-left: 30px; 
+}
+
+#dog {
+    color: #0065fc;
+    margin: 10px 0px 0px 11px;
+    font-size: 12px; 
+}
+
+#cat {
+    width: 125px;
+    height: 33px;
+    border: 1px #efefef solid;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    margin: 0px 0px 0px 30px;
+    padding: 0px 0px 0px 25px;
     font-size: 12px;
 }

@@ -1,7 +1,6 @@
 /*LOGO AND NAV*/
 body {
     background-color:white;
-    /* margin: 0px 25px 0px 25px; */
 }
 
 header {
@@ -17,7 +16,7 @@ header {
 
 .nav links, li {
     display: inline-block;
-    padding: 0px 40px
+    padding: 0px 45px
 }
 
 .blue, a {
@@ -44,7 +43,7 @@ header {
 
 /*Header and Search bar*/
 section {
-    padding-left: 15px; 
+    padding: 0px 0px 0px 15px; 
 }
 
 h1 {
@@ -112,7 +111,7 @@ button {
     justify-content: flex-start;
     flex-direction: row;
     align-items: center;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 #filters{
@@ -232,4 +231,48 @@ button {
     margin: 0px 0px 0px 30px;
     padding: 0px 0px 0px 25px;
     font-size: 12px;
+}
+/* info sentence */
+.cityinfo {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    margin: 30px 0px 0px 0px;
+}
+
+.infoicon {
+    display: inline;
+    position: absolute;
+    border: 2px #efefef solid;
+    border-radius: 50px 50px;
+    width: 20px;
+    height: 20px;
+    margin: 0px 0px 10px 2px;
+}
+
+#info {
+    color: #0065fc;
+    font-size: 10px;
+    margin: 5px 0px 0px 8px;
+}
+
+#infosen {
+    font-size: 12px;
+    margin: 0px 0px 0px 30px;
+}
+
+/* acommdations & most popular */
+.container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+}
+.accommodations {
+    width: 300px;
+    height: 150px;
+    background-color: #efefef;
+    border: 2px #efefef solid;
 }

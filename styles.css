@@ -6,7 +6,8 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    padding: 15px 1%;
+    padding: 11.6562px 65px 0px 65px;
+    padding-right: 65px;
 }
 
 .logo {
@@ -16,7 +17,7 @@ header {
 
 .nav links, li {
     display: inline-block;
-    padding: 0px 45px
+    padding: 0px 45px;
 }
 
 .blue, a {
@@ -27,7 +28,7 @@ header {
 
 .blue a:hover {
     color: #0065fc;
-    padding-top: 35.5px; 
+    padding-top: 34px; 
     border-top-style: solid;
     border-top-width: 2px;
 }
@@ -43,12 +44,12 @@ header {
 
 /*Header and Search bar*/
 section {
-    padding: 0px 0px 0px 15px; 
+    padding: 0px 65px 0px 65px;
 }
 
 h1 {
     font-family: 'Raleway', sans-serif;
-    font-size: 20px;
+    font-size: 19px;
     margin-bottom: 10px;
 }
 
@@ -75,7 +76,6 @@ i {
     width: 45px;
     height: 45px;
     border-radius: 15px 0px 0px 15px;
-
 }
 
 input {
@@ -85,7 +85,7 @@ input {
     color: black;
     margin-left: 45px;
     border: 1px #efefef solid;
-    width: 175px;
+    width: 200px;
     height: 40.8px;
     padding-left: 15px;
 }
@@ -99,7 +99,7 @@ button {
     margin-left: 194px;
     border: none;
     border-radius: 0px 15px 15px 0px;
-    width: 75px;
+    width: 85px;
     height: 45px;
     margin: 0px 0px 0px 0px;
     padding: 15px 15px 15px 15px;
@@ -260,7 +260,7 @@ button {
 
 #infosen {
     font-size: 12px;
-    margin: 0px 0px 0px 30px;
+    margin: 0px 0px 0px 35px;
 }
 
 /* acommdations & most popular */
@@ -274,9 +274,32 @@ button {
 #accommadation {
     background-color: #efefee;
     border-radius: 25px 25px;
-    width: 750px;
-    height: 525px;
+    width: 850px;
+    height: 550px;
     margin: 15px 0px 0px 0px;
+}
+
+#acom {
+    font-family:  'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 35px 0px 0px 35px;
+}
+
+.auberge {
+    background-color: white;
+    width: 275px;
+    height: 225px;
+    border: 2px white solid;
+    border-radius: 25px 25px;
+    margin: 25px 0px 0px 30px;
+}
+
+#bedroomauberge {
+    width: 270px;
+    height: 145px;
+    border-radius: 25px 25px 0px 0px;
+    border: 3px white solid;
 }
 
 #popular {
@@ -284,5 +307,6 @@ button {
     border-radius: 25px 25px;
     width: 350px;
     height: 525px;
-    margin: 15px 0px 0px 25px; 
+    margin: 15px 0px 0px 25px;
+    padding: 5px; 
 }

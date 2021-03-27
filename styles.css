@@ -106,6 +106,72 @@ button {
 }
 
 /*filters*/
+.filters {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    padding: 0px;
+    margin-top: 15px;
+}
+
+.filter-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.filter-list li {
+    border: 1px solid #efefef;
+    border-radius: 25px;
+    /* padding: 10px 15px 10px 40px; */
+}
+
+.filter-list i {
+    color: #0065fc;
+    width: 50px;
+    height: 50px;
+    margin: 0px 0px 0px 0px;
+}
+/*.filter-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type:none;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding-left: 25px;
+}
+.filter-list li {
+    text-align: center;
+    margin: 0px 0px 0px 20px;
+    padding: 10px 10px 10px 50px;
+    border: 1px solid #efefef;
+    border-radius: 25px;
+}
+.filter-list li i {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    color: #0065fc;
+    background-color: #deebff;
+}
+
+i {
+    margin: 0px 0px 50px 0px;
+}
+.filter-text {
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
 .iconsfil {
     display: flex;
     justify-content: flex-start;
@@ -231,7 +297,7 @@ button {
     margin: 0px 0px 0px 30px;
     padding: 0px 0px 0px 25px;
     font-size: 12px;
-}
+} */
 /* info sentence */
 .cityinfo {
     font-family: 'Raleway', sans-serif;
@@ -288,19 +354,19 @@ button {
 
 .auberge {
     background-color: white;
-    width: 255px;
+    width: 275px;
     height: 225px;
     border: 2px white solid;
     border-radius: 25px 25px;
     margin: 25px 0px 0px 30px;
 }
 
-/* #bedroomauberge {
+#bedroomauberge {
     width: 270px;
     height: 145px;
     border-radius: 25px 25px 0px 0px;
     border: 3px white solid;
-} */
+}
 
 #la {
     font-family: 'Raleway', sans-serif;

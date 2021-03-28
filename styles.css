@@ -330,7 +330,7 @@ i {
 }
 
 /* acommdations & most popular */
-.container {
+.greyboxes {
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
@@ -341,43 +341,77 @@ i {
     background-color: #efefee;
     border-radius: 25px 25px;
     width: 1000px;
-    height: 550px;
+    height: 675px;
     margin: 15px 0px 0px 0px;
 }
 
 #acom {
     font-family:  'Raleway', sans-serif;
     font-weight: bold;
-    font-size: 23px;
-    margin: 35px 0px 0px 35px;
+    font-size: 25px;
+    margin: 35px 0px 15px 35px;
 }
 
 .auberge {
-    background-color: white;
+    display: grid;
+    grid-template-columns: 285px 285px 285px;
+    grid-template-rows: 225px 225px;
+    grid-gap: 25px;
+    margin: 0px 35px 0px 35px;
+    /* background-color: white;
     width: 275px;
     height: 225px;
     border: 2px white solid;
     border-radius: 25px 25px;
-    margin: 25px 0px 0px 30px;
+    margin: 25px 0px 0px 30px; */
 }
 
-#bedroomauberge {
+.box {
+    background-color: white;
+    width: 275px;
+    height: 225px;
+    border: 2px white solid;
+    border-radius: 25px;
+}
+
+.hotelpic {
     width: 270px;
     height: 145px;
     border-radius: 25px 25px 0px 0px;
     border: 3px white solid;
 }
 
-#la {
+.hotelnam {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
-    margin: 0px 0px 15px 10px;
+    margin: 0px 0px 5px 10px;
+}
+
+.hotelpri {
+    font-family: 'Raleway', sans-serif;
+    margin: 0px 0px 20px 10px;
+}
+
+.reviewst {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 250px;
+    height: 25px;
+    margin-top: 0px 0px 0px 0px;
+}
+
+.fa-star {
+    color: #0065fc;
+    font-size: 15px;
+    margin: 0px 30px 5px 10px;
 }
 
 #popular {
     background-color: #efefee;
     border-radius: 25px 25px;
     width: 500px;
-    height: 550px;
-    margin: 15px 0px 0px 25px; 
+    height: 675px;
+    margin: 15px 0px 0px 20px; 
 }

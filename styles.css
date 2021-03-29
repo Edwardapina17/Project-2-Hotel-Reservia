@@ -349,7 +349,7 @@ i {
     font-family:  'Raleway', sans-serif;
     font-weight: bold;
     font-size: 25px;
-    margin: 35px 0px 15px 35px;
+    margin: 35px 0px 25px 35px;
 }
 
 .auberge {
@@ -358,12 +358,6 @@ i {
     grid-template-rows: 225px 225px;
     grid-gap: 25px;
     margin: 0px 35px 0px 35px;
-    /* background-color: white;
-    width: 275px;
-    height: 225px;
-    border: 2px white solid;
-    border-radius: 25px 25px;
-    margin: 25px 0px 0px 30px; */
 }
 
 .box {
@@ -390,6 +384,7 @@ i {
 .hotelpri {
     font-family: 'Raleway', sans-serif;
     margin: 0px 0px 20px 10px;
+    font-size: 15px;
 }
 
 .reviewst {
@@ -408,6 +403,18 @@ i {
     margin: 0px 30px 5px 10px;
 }
 
+#more {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 35px 0px 0px 20px;
+    padding: 0px 30px 0px 0px;
+    background-color: #efefee;
+    color: black;
+    width: 150px;
+    height: 50px;
+}
+
 #popular {
     background-color: #efefee;
     border-radius: 25px 25px;
@@ -415,3 +422,47 @@ i {
     height: 675px;
     margin: 15px 0px 0px 20px; 
 }
+
+/* .headlinemostpop{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+} */
+
+#mostpop {
+    font-family:  'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 35px 0px 29px 25px;
+}
+
+.popboxmost {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.popbox {
+    background-color: white;
+    width: 300px;
+    height: 160px;
+    border: 2px white solid;
+    border-radius: 25px;
+    margin: 10px 20px 20px 20px;
+}
+
+.hotelpoppic {
+    width: 125px;
+    height: 155px;
+    border-radius: 25px 0px 0px 25px;
+    border: 3px white solid;
+}
+
+.hotelnamtwo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+

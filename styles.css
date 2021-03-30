@@ -463,6 +463,17 @@ i {
 .hotelnamtwo {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
+    margin: 0px 0px 0px 0px;
 }
 
+#hotelpricetwo {
+    font-family: 'Raleway', sans-serif;
+    margin: 25px 0px 0px 0px; 
+}
 
+.nameprice {
+    float: right;
+    margin: 15px 12px 0px 0px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}

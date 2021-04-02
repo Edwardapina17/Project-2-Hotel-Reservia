@@ -128,14 +128,15 @@ button {
 .filter-list li {
     border: 1px solid #efefef;
     border-radius: 25px;
-    /* padding: 10px 15px 10px 40px; */
+    padding: 10px 15px 10px 40px;
+    margin: 10px;
 }
 
 .filter-list i {
     color: #0065fc;
     width: 50px;
     height: 50px;
-    margin: 0px 0px 0px 0px;
+    margin: 5px 5px 0px 0px;
 }
 /*.filter-list {
     display: flex;
@@ -332,7 +333,7 @@ i {
 /* acommdations & most popular */
 .greyboxes {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-direction: row;
     align-items: center;  
 }
@@ -424,6 +425,10 @@ i {
 }
 
 #popular {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: flex-start;
     background-color: #efefee;
     border-radius: 25px 25px;
     width: 500px;
@@ -447,19 +452,35 @@ i {
 
 .popboxmost {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
     align-items: center;
 }
-
 .popbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: white;
+    width: 300px;
+    height: 160px;
+    /* border: 2px white solid; */
+    border-radius: 25px;
+}
+
+.nameprice p {
+    margin-left: 5px;
+}
+
+/* .popbox {
     background-color: white;
     width: 300px;
     height: 160px;
     border: 2px white solid;
     border-radius: 25px;
     margin: 10px 20px 20px 20px;
-}
+} */
 
 .hotelpoppic {
     width: 125px;
@@ -476,12 +497,12 @@ i {
 
 #hotelpricetwo {
     font-family: 'Raleway', sans-serif;
-    margin: 25px 0px 0px 0px; 
+    /* margin: 25px 0px 0px 0px;  */
 }
 
 .nameprice {
     float: right;
-    margin: 10px 12px 0px 0px;
+    /* margin: 10px 12px 0px 0px; */
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
 }
@@ -498,4 +519,8 @@ i {
     font-size: 15px;
     padding: 8px 8px 8px 8px;
     margin: 0px 0px 0px 0px;
+}
+
+.greystar {
+    color: #efefef;
 }

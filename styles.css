@@ -43,7 +43,7 @@ header {
 }
 
 /*Header and Search bar*/
-section {
+main {
     padding: 0px 35px 0px 35px;
 }
 
@@ -138,167 +138,6 @@ button {
     height: 50px;
     margin: 5px 5px 0px 0px;
 }
-/*.filter-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    list-style-type:none;
-    flex-wrap: wrap;
-    margin: 0px;
-    padding-left: 25px;
-}
-.filter-list li {
-    text-align: center;
-    margin: 0px 0px 0px 20px;
-    padding: 10px 10px 10px 50px;
-    border: 1px solid #efefef;
-    border-radius: 25px;
-}
-.filter-list li i {
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-    border-radius: 50%;
-    width: 55px;
-    height: 55px;
-    color: #0065fc;
-    background-color: #deebff;
-}
-
-i {
-    margin: 0px 0px 50px 0px;
-}
-.filter-text {
-    padding-left: 10px;
-    padding-right: 5px;
-}
-
-.iconsfil {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    align-items: center;
-    margin-top: 20px;
-}
-
-#filters{
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-    font-size: 15;
-    margin: 1px 0px 0px 0px;
-}
-
-.money {
-    display: inline;
-    position: absolute;
-    background-color: #deebff;
-    border-radius: 50px 50px;
-    width: 33px;
-    height: 33px;
-    margin: 0px 0px 0px 30px;
-}
-
-#bill {
-    color: #0065fc;
-    margin: 10px 0px 0px 9px;
-    font-size: 12px;
-}
-
-#low {
-    width: 115px;
-    height: 33px;
-    border: 1px #efefef solid;
-    border-radius: 50px;
-    background-color: white;
-    color: black;
-    margin: 0px 0px 0px 30px;
-    padding: 0px 0px 0px 25px;
-    font-size: 13px;
-}
-
-.fam {
-    display: inline;
-    position: absolute;
-    background-color: #deebff;
-    border-radius: 50px 50px;
-    width: 33px;
-    height: 33px;
-    margin-left: 30px; 
-}
-
-#child {
-    color: #0065fc;
-    margin: 10px 0px 0px 11px;
-    font-size: 12px; 
-}
-
-#friends {
-    width: 145px;
-    height: 33px;
-    border: 1px #efefef solid;
-    border-radius: 50px;
-    background-color: white;
-    color: black;
-    margin: 0px 0px 0px 30px;
-    padding: 0px 0px 0px 25px;
-    font-size: 12px;
-}
-
-.love {
-    display: inline;
-    position: absolute;
-    background-color: #deebff;
-    border-radius: 50px 50px;
-    width: 33px;
-    height: 33px;
-    margin-left: 30px; 
-}
-
-#rom {
-    color: #0065fc;
-    margin: 10px 0px 0px 11px;
-    font-size: 12px; 
-}
-
-#heart {
-    width: 105px;
-    height: 33px;
-    border: 1px #efefef solid;
-    border-radius: 50px;
-    background-color: white;
-    color: black;
-    margin: 0px 0px 0px 30px;
-    padding: 0px 0px 0px 25px;
-    font-size: 12px;
-}
-
-.animal {
-    display: inline;
-    position: absolute;
-    background-color: #deebff;
-    border-radius: 50px 50px;
-    width: 33px;
-    height: 33px;
-    margin-left: 30px; 
-}
-
-#dog {
-    color: #0065fc;
-    margin: 10px 0px 0px 11px;
-    font-size: 12px; 
-}
-
-#cat {
-    width: 125px;
-    height: 33px;
-    border: 1px #efefef solid;
-    border-radius: 50px;
-    background-color: white;
-    color: black;
-    margin: 0px 0px 0px 30px;
-    padding: 0px 0px 0px 25px;
-    font-size: 12px;
-} */
 /* info sentence */
 .cityinfo {
     font-family: 'Raleway', sans-serif;
@@ -336,6 +175,10 @@ i {
     justify-content: center;
     flex-direction: row;
     align-items: center;  
+}
+
+section .greyboxes {
+    padding-left: 0px;
 }
 
 #accommadation {
@@ -470,17 +313,16 @@ i {
 }
 
 .nameprice p {
-    margin-left: 5px;
+    margin-left: 15px;
+    margin-right: 35px;
 }
 
-/* .popbox {
-    background-color: white;
-    width: 300px;
-    height: 160px;
-    border: 2px white solid;
-    border-radius: 25px;
-    margin: 10px 20px 20px 20px;
-} */
+.nameprice img {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
 
 .hotelpoppic {
     width: 125px;
@@ -511,7 +353,7 @@ i {
     width: 150px;
     height: 50x;
     padding: 0px 0px 0px 0px;
-    margin: 50px 0px 0px 0px;
+    margin-right: 50px;
 }
 
 .startwo {
@@ -523,4 +365,52 @@ i {
 
 .greystar {
     color: #efefef;
+}
+
+.activities {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+}
+
+.actbox {
+    /* background-color: red; */
+    width: 1329px;
+    height: 600px;
+}
+
+#act {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 65px;  
+}
+
+.oldport {
+    background-color: white;
+    box-shadow: 5px 5px 8px 1px #efefef;
+    border-radius: 25px;
+    width: 285px;
+    height: 425px;
+}
+
+.oldport img {
+    width: 285px;
+    height: 360px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.oldport p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+footer {
+    background-color:#efefef;
+    width: 1410px;
+    height: 300px;
+    margin-right: 0px;
+    position: absolute;
 }

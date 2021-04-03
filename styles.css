@@ -407,6 +407,43 @@ section .greyboxes {
     margin-left: 10px;
 }
 
+#grid {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+}
+
+.columns {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 35px;
+}
+.pom {
+    width: 295px;
+    height: 225px;
+    background-color: white;
+    box-shadow: 5px 5px 8px 1px #efefef;
+    border-radius: 25px;
+    margin-bottom: 28px;
+}
+
+.pom img {
+    width: 295px;
+    height: 200px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.fri {
+    width: 285px;
+    height: 175px;
+    background-color: white;
+    box-shadow: 5px 5px 8px 1px #efefef;
+    border-radius: 25px;
+}
+
 footer {
     background-color:#efefef;
     width: 1410px;

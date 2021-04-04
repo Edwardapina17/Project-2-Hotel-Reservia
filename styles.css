@@ -391,13 +391,13 @@ section .greyboxes {
     background-color: white;
     box-shadow: 5px 5px 8px 1px #efefef;
     border-radius: 25px;
-    width: 285px;
+    width: 310px;
     height: 425px;
 }
 
 .oldport img {
-    width: 285px;
-    height: 360px;
+    width: 310px;
+    height: 375px;
     border-radius: 25px 25px 0px 0px;
 }
 
@@ -405,6 +405,7 @@ section .greyboxes {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     margin-left: 10px;
+    margin-top: 10px;
 }
 
 #grid {
@@ -422,26 +423,58 @@ section .greyboxes {
     margin-left: 35px;
 }
 .pom {
-    width: 295px;
+    width: 305px;
     height: 225px;
     background-color: white;
     box-shadow: 5px 5px 8px 1px #efefef;
     border-radius: 25px;
-    margin-bottom: 28px;
+    margin-bottom: 55px;
 }
 
 .pom img {
-    width: 295px;
-    height: 200px;
+    width: 305px;
+    height: 185px;
     border-radius: 25px 25px 0px 0px;
+} 
+
+.pom p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 5px;
 }
 
 .fri {
-    width: 285px;
-    height: 175px;
+    width: 295px;
+    height: 145px;
     background-color: white;
     box-shadow: 5px 5px 8px 1px #efefef;
     border-radius: 25px;
+}
+
+.fri img {
+    width: 295px;
+    height: 110px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.fri p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.right {
+    margin-left: 35px;
+}
+
+.switch {
+    margin-bottom: 55px;
+}
+
+.noswitch {
+    margin-bottom: 0px;
 }
 
 footer {

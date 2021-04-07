@@ -117,15 +117,58 @@ button {
     margin-top: 15px;
 }
 
-.filter-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    list-style-type: none;
+.fa-money-bill-wave::before {
+    margin-left: 10px;
 }
 
-.filter-list li {
+.fa-child::before {
+    margin-left: 13px;
+}
+
+.fa-heart::before {
+    margin-left: 11px;
+}
+
+.fa-dog::before {
+    margin-left: 10px;
+}
+.filtericon {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.filtericon i{
+    display: flex;
+    align-items: center;
+    color: #0065fc;
+    margin-left: 5px;
+}
+
+.filtericon .fas{
+    display: flex;
+    align-items: center;
+    background-color: #deebff;
+    border-radius: 25px;
+    width: 40px;
+    height: 40px;
+    margin: 0px 0px 0px 0px;
+}
+
+.filtername{
+    border: 1px solid #efefee;
+    border-radius: 25px;
+    padding: 10px 15px 10px 55px; 
+}
+
+.filtername p {
+    font-size: 15px;
+    margin: 0px;
+}
+
+/* .filter-list li {
     border: 1px solid #efefef;
     border-radius: 25px;
     padding: 10px 15px 10px 40px;
@@ -133,11 +176,20 @@ button {
 }
 
 .filter-list i {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
     color: #0065fc;
+    background-color: #deebff;
+    border-radius: 25px 25px;
     width: 50px;
     height: 50px;
-    margin: 5px 5px 0px 0px;
-}
+    margin-right: 200px;
+    margin-left: 0px;
+    margin-top: 0px;
+} */
+
 /* info sentence */
 .cityinfo {
     font-family: 'Raleway', sans-serif;
@@ -279,13 +331,6 @@ section .greyboxes {
     margin: 15px 0px 0px 20px; 
 }
 
-/* .headlinemostpop{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-} */
-
 #mostpop {
     font-family:  'Raleway', sans-serif;
     font-weight: bold;
@@ -313,9 +358,12 @@ section .greyboxes {
 }
 
 .nameprice p {
+    margin-left: 5px;
+}
+/* .nameprice p {
     margin-left: 15px;
     margin-right: 35px;
-}
+} */
 
 .nameprice img {
     display: flex;
@@ -339,12 +387,10 @@ section .greyboxes {
 
 #hotelpricetwo {
     font-family: 'Raleway', sans-serif;
-    /* margin: 25px 0px 0px 0px;  */
 }
 
 .nameprice {
     float: right;
-    /* margin: 10px 12px 0px 0px; */
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
 }
@@ -365,13 +411,6 @@ section .greyboxes {
 
 .greystar {
     color: #efefef;
-}
-
-.activities {
-    /* display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    align-items: center; */
 }
 
 .actbox {
@@ -510,3 +549,18 @@ footer {
     margin-bottom: 15px;
 }
 
+@media only screen and (min-width: 375px;) {
+    main {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .greyboxes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+}

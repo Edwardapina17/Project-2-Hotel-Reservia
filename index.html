@@ -30,19 +30,43 @@
             <h1>Find a place for your dream vacation</h1>
             <h3>Downtown or in nature</h3>
             <form class="align">
-                <i class="fas fa-map-marker-alt"></i>
+                <i class="fas fa-map-marker-alt more"></i>
                 <input type="text" placeholder="Marseille, France">
                 <button>Search</button>
             </form>
     <!--Filter Bar-->
     <section class="filters">
         <p>Filters</p>
-            <ul class="filter-list">
-                <li><i class="fas fa-money-bill-wave"></i><span class="filter-text">Low Cost</li>
-                <li><i class="fas fa-child"></i><span class="filter-text">Family-friendly</li>
-                <li><i class="fas fa-heart"></i><span class="filter-text">Romantic</li>
-                <li><i class="fas fa-dog"></i></i><span class="filter-text">Pets allowed<span class="filter-text"></li>
-            </ul>
+            <div class="filtericon">
+                <i class="fas fa-money-bill-wave"></i>
+                <div class="filtername">
+                    <p>Low Cost</p>
+                </div>
+            </div>
+            <div class="filtericon">
+                <i class="fas fa-child"></i>
+                <div class="filtername">
+                    <p>Family-friendly</p>
+                </div>
+            </div>
+            <div class="filtericon">
+                <i class="fas fa-heart"></i>
+                <div class="filtername">
+                    <p>Romantic</p>
+                </div>
+            </div>
+            <div class="filtericon">
+                <i class="fas fa-dog"></i>
+                <div class="filtername">
+                    <p>Pets allowed</p>
+                </div>
+            </div>
+                <!-- <ul class="filter-list">
+                    <li><i class="fas fa-money-bill-wave"></i>Low Cost</li>
+                    <li><i class="fas fa-child"></i>Family-friendly</li>
+                    <li><i class="fas fa-heart"></i>Romantic</li>
+                    <li><i class="fas fa-dog"></i>Pets allowed</li>
+                </ul> -->
     </section>
             <div class="cityinfo">
                 <div class="infoicon">
@@ -134,8 +158,10 @@
                 </div> 
                 <aside id='popular'>
                     <div class="headlinemostpop">
-                        <p id="mostpop">Most popular</p>
-                        <i class="fas fa-chart-line"></i>
+                        <div class="headlinealign">
+                            <p id="mostpop">Most popular</p>
+                            <i class="fas fa-chart-line"></i>
+                        </div>
                         <div id="popboxmost">
                             <div class="popbox">
                                 <img class="hotelpoppic" src="emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Morning Sun hotel">

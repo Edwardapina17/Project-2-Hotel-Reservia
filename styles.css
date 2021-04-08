@@ -238,7 +238,7 @@ section .greyboxes {
     background-color: white;
     width: 245px;
     height: 215px;
-    /* border: 2px white solid; */
+    box-shadow: 5px 5px 8px 1px lightgray;
     border-radius: 25px;
 }
 
@@ -323,8 +323,8 @@ section .greyboxes {
 #mostpop {
     font-family:  'Raleway', sans-serif;
     font-weight: bold;
-    font-size: 25px;
-    margin: 35px 0px 29px 25px;
+    font-size: 23px;
+    margin: 35px 0px 29px 0px;
 }
 
 .popboxmost {
@@ -342,7 +342,7 @@ section .greyboxes {
     background-color: white;
     width: 360px;
     height: 160px;
-    /* border: 2px white solid; */
+    box-shadow: 5px 5px 8px 1px lightgray;
     border-radius: 25px;
 }
 
@@ -351,17 +351,14 @@ section .greyboxes {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-left: 15px;
+    margin-left: 13px;
+    margin-bottom: 20px;
 }
 
 .nameprice ul {
     padding-left: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
-}
-
-.nameprice p {
-    font-weight: bold;
 }
 
 .nameprice img {
@@ -378,13 +375,15 @@ section .greyboxes {
     border: 3px white solid;
 }
 
-.hotelnamtwo {
+.hotelnametwo {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
-    margin: 0px 0px 0px 0px;
+    margin-bottom: 25px;
+    font-size: 18px;
 }
 
-#hotelpricetwo {
+.hotelpricetwo {
+    margin-bottom: 15px;
     font-family: 'Raleway', sans-serif;
 }
 

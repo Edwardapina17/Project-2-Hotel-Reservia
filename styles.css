@@ -168,28 +168,6 @@ button {
     margin: 0px;
 }
 
-/* .filter-list li {
-    border: 1px solid #efefef;
-    border-radius: 25px;
-    padding: 10px 15px 10px 40px;
-    margin: 10px;
-}
-
-.filter-list i {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    color: #0065fc;
-    background-color: #deebff;
-    border-radius: 25px 25px;
-    width: 50px;
-    height: 50px;
-    margin-right: 200px;
-    margin-left: 0px;
-    margin-top: 0px;
-} */
-
 /* info sentence */
 .cityinfo {
     font-family: 'Raleway', sans-serif;
@@ -236,7 +214,7 @@ section .greyboxes {
 #accommadation {
     background-color: #efefee;
     border-radius: 25px 25px;
-    width: 1000px;
+    width: 875px;
     height: 675px;
     margin: 15px 0px 0px 0px;
 }
@@ -244,37 +222,48 @@ section .greyboxes {
 #acom {
     font-family:  'Raleway', sans-serif;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
     margin: 35px 0px 25px 35px;
 }
 
 .auberge {
     display: grid;
-    grid-template-columns: 285px 285px 285px;
-    grid-template-rows: 225px 225px;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 220px 220px;
     grid-gap: 25px;
-    margin: 0px 35px 0px 35px;
+    margin: 0px 0px 0px 20px;
 }
 
 .box {
     background-color: white;
-    width: 275px;
-    height: 225px;
-    border: 2px white solid;
+    width: 245px;
+    height: 215px;
+    /* border: 2px white solid; */
     border-radius: 25px;
 }
 
 .hotelpic {
-    width: 270px;
-    height: 145px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 239px;
+    height: 125px;
     border-radius: 25px 25px 0px 0px;
     border: 3px white solid;
+}
+
+.hotelinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .hotelnam {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
-    margin: 0px 0px 5px 10px;
+    margin: 5px 0px 5px 10px;
 }
 
 .hotelpri {
@@ -328,7 +317,7 @@ section .greyboxes {
     border-radius: 25px 25px;
     width: 500px;
     height: 675px;
-    margin: 15px 0px 0px 20px; 
+    margin: 15px 0px 0px 25px; 
 }
 
 #mostpop {
@@ -347,23 +336,33 @@ section .greyboxes {
 .popbox {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     margin-bottom: 20px;
     background-color: white;
-    width: 300px;
+    width: 360px;
     height: 160px;
     /* border: 2px white solid; */
     border-radius: 25px;
 }
 
-.nameprice p {
-    margin-left: 5px;
-}
-/* .nameprice p {
+.nameprice {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
     margin-left: 15px;
-    margin-right: 35px;
-} */
+}
+
+.nameprice ul {
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.nameprice p {
+    font-weight: bold;
+}
 
 .nameprice img {
     display: flex;
@@ -373,7 +372,7 @@ section .greyboxes {
 }
 
 .hotelpoppic {
-    width: 125px;
+    width: 140px;
     height: 155px;
     border-radius: 25px 0px 0px 25px;
     border: 3px white solid;

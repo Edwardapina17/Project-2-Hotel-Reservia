@@ -1,6 +1,11 @@
 /*LOGO AND NAV*/
+/* *{
+    outline: 1px dotted red;
+} */
+
 body {
     background-color:white;
+    margin: 0px;
 }
 
 header {
@@ -43,9 +48,9 @@ header {
 }
 
 /*Header and Search bar*/
-main {
+ /* main{
     padding: 0px 35px 0px 35px;
-}
+}main */
 
 h1 {
     font-family: 'Raleway', sans-serif;
@@ -202,98 +207,87 @@ button {
 /* acommdations & most popular */
 .greyboxes {
     display: flex;
-    justify-content: center;
     flex-direction: row;
-    align-items: center;  
+    justify-content: space-around;
+    align-items: center;
 }
 
-section .greyboxes {
-    padding-left: 0px;
-}
-
-#accommadation {
-    background-color: #efefee;
-    border-radius: 25px 25px;
-    width: 875px;
-    height: 675px;
-    margin: 15px 0px 0px 0px;
-}
-
-#acom {
-    font-family:  'Raleway', sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    margin: 35px 0px 25px 35px;
-}
-
-.auberge {
-    display: grid;
-    grid-template-columns: 250px 250px 250px;
-    grid-template-rows: 220px 220px;
-    grid-gap: 25px;
-    margin: 0px 0px 0px 20px;
-}
-
-.box {
-    background-color: white;
-    width: 245px;
-    height: 215px;
-    box-shadow: 5px 5px 8px 1px lightgray;
-    border-radius: 25px;
-}
-
-.hotelpic {
+.greybox main {
+    width: 66%;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+    background-color: #efefee;
+}
+
+.greyboxes main div {
+    width: 33%;
+}
+
+.greyboxes main {
+    width: 66%;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #efefee;
+    border-radius: 25px;
+}
+.boxes {
+    display: flex;
+    flex-direction: column;
     justify-content: flex-start;
-    width: 239px;
-    height: 125px;
-    border-radius: 25px 25px 0px 0px;
-    border: 3px white solid;
+    align-items: flex-start;
+    width: 100%;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 5px 5px 8px 1px  lightgrey;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #efefee;
+}
+
+.imagehotel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 .hotelinfo {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     align-items: flex-start;
+    justify-content: center;
+}
+
+.hotelpic {
+    width: 100%;
+    padding: 5px;
+    border-radius: 25px 25px 0px 0px;
+    border: 3px white solid;
 }
 
 .hotelnam {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
-    margin: 5px 0px 5px 10px;
+    margin: 0px;
 }
 
 .hotelpri {
     font-family: 'Raleway', sans-serif;
-    margin: 0px 0px 0px 10px;
+    margin: 0px;
     font-size: 15px;
-}
-
-.reviewst {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 250px;
-    height: 15px;
-    margin: 0px 0px 25px 0px;
-    padding: 0px 0px 0px 0px ;
-}
-
-.star {
-    color: #0065fc;
-    padding: 10px 10px 10px 10px;
-    margin: 0px 0px 0px 0px;
-}
-
-.fa-star {
-    color: #0065fc;
-    font-size: 15px;
-    padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
 }
 
 #more {
@@ -334,10 +328,7 @@ section .greyboxes {
     align-items: center;
 }
 .popbox {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
+    width: 100%;
     margin-bottom: 20px;
     background-color: white;
     width: 360px;
@@ -369,8 +360,6 @@ section .greyboxes {
 }
 
 .hotelpoppic {
-    width: 140px;
-    height: 155px;
     border-radius: 25px 0px 0px 25px;
     border: 3px white solid;
 }
@@ -393,23 +382,35 @@ section .greyboxes {
     font-size: 15px;
 }
 
-.reviewsttwo {
-    width: 150px;
-    height: 50x;
-    padding: 0px 0px 0px 0px;
-    margin-right: 50px;
+.reviewst {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 250px;
+    height: 15px;
+    margin: 0px 0px 25px 0px;
+    padding: 0px 0px 0px 0px ;
 }
 
-.startwo {
+.star {
     color: #0065fc;
-    font-size: 15px;
-    padding: 8px 8px 8px 8px;
+    padding: 10px 10px 10px 10px;
     margin: 0px 0px 0px 0px;
 }
 
-.greystar {
-    color: #efefef;
+.fa-star {
+    color: #0065fc;
+    font-size: 15px;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 0px 0px 0px;
 }
+
+
+
+/* .greystar {
+    color: #efefef;
+} */
 
 .actbox {
     /* background-color: red; */
@@ -520,7 +521,6 @@ footer {
     flex-direction: row;
     align-items: center;
     background-color:#efefef;
-    width: 1410px;
     height: 300px;
     margin-right: 0px;
 }
@@ -530,8 +530,8 @@ footer {
     flex-direction: row;
     justify-content:flex-start;
     align-items:flex-start;
-    width: 400px;
-    height: 200px;
+    /* width: 400px;
+    height: 200px; */
 }
 
 .footercolumns {
@@ -547,18 +547,7 @@ footer {
     margin-bottom: 15px;
 }
 
-@media only screen and (min-width: 375px;) {
-    main {
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-    }
+footer {
+    margin-right: 0px;
 
-    .greyboxes {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-    }
 }

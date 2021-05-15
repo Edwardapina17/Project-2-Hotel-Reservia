@@ -206,10 +206,12 @@ button {
 
 /* acommdations & most popular */
 .greyboxes {
+    /* display: table; */
     display: flex;
+    /*flex-wrap: wrap; */
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-evenly;
+    align-items: stretch;
 }
 
 /* .greyboxes main div {
@@ -228,7 +230,10 @@ button {
 }
 
 main {
-    width: 66%;
+    /* display: table-cell; */
+    /* flex: 1 1 33.33%; */
+    flex-basis: 60%;
+    width: 60%;
     background-color: #efefee;
     border-radius: 25px;
 }
@@ -244,10 +249,9 @@ main .accomodation {
 .box-container {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 5px 5px 5px 10px;
 }
 .boxes {
     display: flex;
@@ -319,10 +323,12 @@ button {
 } */
 
 aside {
-    display: flex;
+    display: table-cell;
+    flex-basis: 25%;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start; */
     background-color: #efefee;
     width: 25%;
     border-radius: 25px;
@@ -336,7 +342,7 @@ aside {
 }
 
 .image-container-2 {
-    width: 50%;
+    /* width: 50%; */
     overflow: hidden;
 }
 

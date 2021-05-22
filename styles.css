@@ -206,76 +206,52 @@ button {
 
 /* acommdations & most popular */
 .greyboxes {
-    /* display: table; */
     display: flex;
-    /*flex-wrap: wrap; */
     flex-direction: row;
-    justify-content: space-evenly;
-    align-items: stretch;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 100%;
 }
-
-/* .greyboxes main div {
-    width: 33%;
-} */
-
-.image-container {
-    width: 100%;
-    /* height: 20%; */
+  /* \Main */
+.greyboxes main {
+    max-width: 60%;
     overflow: hidden;
 }
 
-.image {
-    width: 100%;
-    border-radius: 20px 20px 0px 0px;
-}
-
 main {
-    /* display: table-cell; */
-    /* flex: 1 1 33.33%; */
-    flex-basis: 60%;
-    width: 60%;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap; */
     background-color: #efefee;
     border-radius: 25px;
 }
 
-main .accomodation {
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    margin-top: 25px;
-    margin-bottom: 5px;
-    margin-left: 25px;
-}
-
-.box-container {
+.main-boxes {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
 }
+
 .boxes {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 29%;
+    width: 30%;
+    margin: 5px;
     background-color: white;
     border-radius: 25px;
     box-shadow: 5px 5px 8px 1px  lightgrey;
     padding: 5px;
-    margin: 10px;
-}
-
-.boxes .image {
-    width: 100%;
-    border-radius: 20px 20px 0px 0px;
+    /* margin: 10px; */
 }
 
 .boxes ul {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
+    /* justify-content: flex-start;
+    align-items: flex-start; */
     padding: 0px;
     margin: 0px 0px 10px 0px;
 }
@@ -283,16 +259,8 @@ main .accomodation {
 .boxes li  {
     padding: 10px;
 }
-
 .boxes .fas {
     margin: 0px;
-}
-
-.boxes p {
-    font-family: 'Raleway', sans-serif;
-    margin-top: 5px;
-    margin-bottom: 2px;
-    margin-left: 5px;
 }
 
 .boxes .fa-star {
@@ -300,102 +268,100 @@ main .accomodation {
     padding: 0px;
 }
 
-button {
-    color: black;
-    background-color: #efefee;
-    padding: 0px;
-    /* margin-bottom: 5px; */
-    margin-left: 15px;
-    border-radius: 20px;
+.boxes .fa-star::before {
+    margin: -6px;
 }
 
-/* .boxes-test {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 33%;
-    background-color: white;
-    border-radius: 25px;
-    box-shadow: 5px 5px 8px 1px  lightgrey;
-    padding: 5px;
-    margin: 10px;
-} */
+.boxes p {
+    font-family: 'Raleway', sans-serif;
+}
 
+.card-image {
+    height: 100%;
+    overflow: hidden;
+}
+.card-image img {
+    width: 100%;
+    border-radius:25px 25px 0px 0px;
+}
+
+  /* ASIDE */
 aside {
-    /* display: table-cell;
-    flex-basis: 25%; */
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    background-color: #efefee;
-    width: 25%;
-    border-radius: 25px;
-}
-
-.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-}
-
-.image-container-2 {
-    float: left;
-    width: 144px;
-    height: 141px;
-    background-size: cover;
-    /* width: 50%;
-    overflow: hidden; */
+    align-items: flex-start;
+    flex-wrap: wrap;
+    /* overflow: hidden; */
+    background-color: #efefee;
+    border-radius: 25px;
+    width: 30%;
+    height: 100%;
 }
 
 .boxes-aside {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: center;
-    width: 100%;
+    align-items: space-around;
     background-color: white;
     border-radius: 20px;
     box-shadow: 5px 5px 8px 1px  lightgrey;
     padding: 5px;
     margin: 10px;
+
+   /* margin: 5px; */
+}
+.image-container {
+    width: 40%;
+    overflow: hidden;
+     /* height: 100%; */
+}
+.image-container img {
+    width:100%;
+    height:30vh;
+    object-fit:cover;
+    object-position: center;
 }
 
-.boxes-aside .image {
-    width: 98%;
-    border-radius: 20px 0px 0px 20px;
-    height: 100%;
-    /* width: 75%;
-    border-radius: 20px 0px 0px 20px; */
+.description {
+    width: 60%;
 }
 
-.boxes-aside ul {
+.description ul {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
+    /* justify-content: flex-start;
+    align-items: flex-start; */
     padding: 0px;
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 10px 0px;
 }
 
-.boxes-aside p {
-    font-family: 'Raleway', sans-serif;
+.description li {
+    padding: 10px;
 }
 
-.boxes-aside .fas {
+.description .fa-star {
     margin: 0px;
-}
-
-.boxes-aside .fa-star {
     color: #0065fc;
     padding: 0px;
 }
 
-.boxes-aside li {
-    padding: 10px;
+.description .fa-star::before {
+    margin: -6px;
 }
+
+.description 
+
+@media only screen and (max-width: 600px) {
+    /* Makes main and aside stack up in mobile view */
+    aside {
+    width: 100%;
+    }
+    /* Makes cards stack in mobile view */
+    .boxes {
+    width: 100%;
+    }
 
 
 /* .greystar {

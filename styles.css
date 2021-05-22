@@ -116,6 +116,7 @@ button {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    flex-wrap: wrap;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     padding: 0px;
@@ -208,7 +209,7 @@ button {
 .greyboxes {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: flex-start;
     flex-wrap: wrap;
     height: 100%;
@@ -351,19 +352,6 @@ aside {
     margin: -6px;
 }
 
-.description 
-
-@media only screen and (max-width: 600px) {
-    /* Makes main and aside stack up in mobile view */
-    aside {
-    width: 100%;
-    }
-    /* Makes cards stack in mobile view */
-    .boxes {
-    width: 100%;
-    }
-
-
 /* .greystar {
     color: #efefef;
 } */
@@ -406,11 +394,13 @@ aside {
     margin-top: 10px;
 }
 
-#grid {
+.grid {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 23px;
 }
 
 .columns {
@@ -418,7 +408,8 @@ aside {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    margin-left: 35px;
+    gap: 50px;
+    /* margin-left: 35px; */
 }
 .pom {
     width: 305px;
@@ -426,7 +417,8 @@ aside {
     background-color: white;
     box-shadow: 5px 5px 8px 1px #efefef;
     border-radius: 25px;
-    margin-bottom: 55px;
+    paddin
+    /* margin-bottom: 55px; */
 }
 
 .pom img {
@@ -464,11 +456,11 @@ aside {
 }
 
 .right {
-    margin-left: 35px;
+    /* margin-left: 35px; */
 }
 
 .switch {
-    margin-bottom: 55px;
+    /* margin-bottom: 55px; */
 }
 
 .noswitch {
@@ -511,3 +503,13 @@ footer {
     margin-right: 0px;
 
 }
+
+@media only screen and (max-width: 600px) {
+    /* Makes main and aside stack up in mobile view */
+    aside {
+    width: 100%;
+    }
+    /* Makes cards stack in mobile view */
+    .boxes {
+    width: 100%;
+    }

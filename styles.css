@@ -33,7 +33,7 @@ header {
 
 .blue a:hover {
     color: #0065fc;
-    padding-top: 34px; 
+    padding-top: 25px; 
     border-top-style: solid;
     border-top-width: 2px;
 }
@@ -213,6 +213,8 @@ button {
     align-items: flex-start;
     flex-wrap: wrap;
     height: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
   /* \Main */
 .greyboxes main {
@@ -433,6 +435,7 @@ aside {
     align-items: center;
     flex-wrap: wrap;
     gap: 23px;
+    padding-bottom: 25px;
 }
 
 .columns {

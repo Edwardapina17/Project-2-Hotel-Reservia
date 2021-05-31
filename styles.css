@@ -163,6 +163,10 @@ button {
     margin: 0px 0px 0px 0px;
 }
 
+.filtericon a:hover {
+    color: #0065fc;
+}
+
 .filtername{
     border: 1px solid #efefee;
     border-radius: 25px;

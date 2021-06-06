@@ -413,9 +413,9 @@ aside h1 {
     margin: -6px;
 }
 
-/* .greystar {
-    color: #efefef;
-} */
+.grey {
+    color: #efefee;
+}
 
 .actbox {
     display: flex;
@@ -537,7 +537,7 @@ footer {
     flex-wrap: wrap;
     background-color:#efefef;
     height: 300px;
-    margin-right: 0px;
+    margin-right: 10px;
 }
 
 .footerdisplay{
@@ -570,9 +570,33 @@ footer {
 @media only screen and (max-width: 600px) {
     /* Makes main and aside stack up in mobile view */
     aside {
-    width: 100%;
+        width: 100%;
+        background-color: white;
+        padding-left: 0px;
     }
     /* Makes cards stack in mobile view */
     .boxes {
-    width: 100%;
+        width: 100%;
     }
+
+    .greyboxes main {
+        max-width: 100%;
+    }
+
+    .boxes-aside {
+        width: 100%;
+    }
+
+    .image-container img {
+        height: 27vh;
+    }
+
+    #act {
+        margin-left: 20px;
+    }
+
+    footer {
+        margin-right: -15px;
+        height: 449px;
+    }
+

@@ -636,6 +636,10 @@ footer {
         padding-right: 0px;
     }
 
+    ul .footercolumns {
+        padding-left: 35px;
+    }
+
     .act {
         margin-left: 20px;
     }

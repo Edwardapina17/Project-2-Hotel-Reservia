@@ -18,9 +18,9 @@
         <img class="logo" src="images/logo/Reservia@3x.png" alt="Reservia Logo">
         <nav>
             <ul class="nav links">
-                <li class="blue .col-1"><a href="#">Accommodations</a></li>
-                <li class="blue .col-1"><a href="#">Activities</a></li>
-                <li id="blue"><a id="blue" href="#">Sign Up</a></li>
+                <li class="blue"><a href="#">Accommodations</a></li>
+                <li class="blue"><a href="#">Activities</a></li>
+                <li class="sign-up-btn"><a href="#">Sign Up</a></li>
             </ul>
         </nav>
     </header>
@@ -28,33 +28,37 @@
     <article>
         <h1>Find a place for your dream vacation</h1>
         <h3>Downtown or in nature</h3>
-        <form class="align">
+        <div class="search-bar">
+            <input type="text" placeholder="Marseille, France">
+            <button>Search</button>
+        </div>
+        <!-- <form class="align">
             <i class="fas fa-map-marker-alt more"></i>
             <input type="text" placeholder="Marseille, France">
             <button>Search</button>
-        </form>
+        </form> -->
         <!--Filter Bar-->
         <section class="filters">
             <p>Filters</p>
-            <div class="filtericon">
+            <div class="filtericon money-bill">
                 <a href="#"><i class="fas fa-money-bill-wave"></i>
                 <div class="filtername">
                     <p>Low Cost</p></a>
                 </div>
             </div>
-            <div class="filtericon">
+            <div class="filtericon child">
                 <a href="#"><i class="fas fa-child"></i>
                 <div class="filtername">
                     <p>Family-friendly</p>
                 </div></a>
             </div>
-            <div class="filtericon">
+            <div class="filtericon heart">
                 <a href="#"><i class="fas fa-heart"></i>
                 <div class="filtername">
                     <p>Romantic</p>
                 </div></a>
             </div>
-            <div class="filtericon">
+            <div class="filtericon dog">
                 <a href="#"><i class="fas fa-dog"></i>
                 <div class="filtername">
                     <p>Pets allowed</p>
@@ -217,7 +221,7 @@
         </section>
         <section class="actbox">
             <div>
-                <p id="act">Activities in Marseille</p>
+                <p class="act">Activities in Marseille</p>
                 <div class="grid">
                     <div class="oldport">
                         <a href="#"><img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"

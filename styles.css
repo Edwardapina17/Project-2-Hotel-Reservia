@@ -25,6 +25,7 @@ header {
     padding: 0px 45px;
 }
 
+
 .blue, a {
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
@@ -38,12 +39,12 @@ header {
     border-top-width: 2px;
 }
 
-#blue a {
+.sign-up-btn a {
     font-weight: bold;
     color:#0065fc;
 }
 
-#blue a:hover {
+.sign-up-btn a:hover {
     color: #deebff;
 }
 
@@ -67,23 +68,36 @@ h3 {
 }
 
 .align {
-    display: flex;
-    background-color: #efefef;
-    width: 45px;
+    /* display: flex;
+    background-color: #efefef; */
+    /* width: 45px;
     height: 45px;
-    border-radius: 15px 0px 0px 15px;
+    border-radius: 15px 0px 0px 15px; */
     margin-left: 35px;
 }
 
-i {
+.search-bar {
+    display: inline ;
+}
+
+.fas .fa-map-marker-alt .more, i {
     color: black;
     display: inline;
     position: absolute;
-    margin-top: 15px;
-    margin-left: 15.9px;
+    /* margin-top: 15px;
+    margin-left: 15.9px; */
     width: 45px;
     height: 45px;
     border-radius: 15px 0px 0px 15px;
+}
+
+/* .fa-map-marker-alt::before {
+    margin-top: 15px;
+    margin-left: 15px;
+} */
+
+.more {
+    background-color: #efefef;
 }
 
 input {
@@ -98,20 +112,20 @@ input {
     padding-left: 15px;
 }
 
-button {
-    background-color: #0065fc;
-    color: white;
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-    text-align: center;
-    margin-left: 194px;
-    border: none;
-    border-radius: 0px 15px 15px 0px;
-    width: 85px;
-    height: 45px;
-    margin: 0px 0px 0px 0px;
-    padding: 15px 15px 15px 15px;
-}
+    button {
+        background-color: #0065fc;
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        text-align: center;
+        margin-left: 194px;
+        border: none;
+        border-radius: 0px 15px 15px 0px;
+        width: 85px;
+        height: 45px;
+        margin: 0px 0px 0px 0px;
+        padding: 15px 15px 15px 15px;
+    }
 
 /*filters*/
 .filters {
@@ -427,7 +441,7 @@ aside h1 {
     height: 600px; */
 }
 
-#act {
+.act {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size: 20px;
@@ -570,33 +584,68 @@ footer {
 @media only screen and (max-width: 600px) {
     /* Makes main and aside stack up in mobile view */
     aside {
-        width: 100%;
-        background-color: white;
-        padding-left: 0px;
+        width: 90%;
+        border-radius: 0px;
+        /* padding: 3px;
+        border-radius: 0px; */
     }
     /* Makes cards stack in mobile view */
     .boxes {
         width: 100%;
     }
 
-    .greyboxes main {
-        max-width: 100%;
+    .money-bill {
+        order: 1;
     }
 
-    .boxes-aside {
-        width: 100%;
+    .heart {
+        order: 2;
     }
 
-    .image-container img {
-        height: 27vh;
+    .child {
+        order: 3;
     }
 
-    #act {
-        margin-left: 20px;
+    .dog {
+        order: 4;
     }
 
     footer {
         margin-right: -15px;
         height: 449px;
     }
+
+    .greyboxes main {
+        max-width: 100%;
+        background-color: white;
+    }
+
+    .title h1 {
+        font-size: 22px;
+        margin-left: 0px;
+    }
+
+    .grey-button {
+        background-color: white;
+        margin-top: 10px;
+    }
+
+    .greyboxes {
+        flex-direction: column-reverse;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .act {
+        margin-left: 20px;
+    }
+
+    .boxes-aside {
+        width: 92%%;
+
+    .image-container img {
+        height: 27vh;
+    }
+
+    
 

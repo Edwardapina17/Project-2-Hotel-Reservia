@@ -28,17 +28,32 @@
     <article>
         <h1>Find a place for your dream vacation</h1>
         <h3>Downtown or in nature</h3>
-        <div class="search-bar">
-            <input type="text" placeholder="Marseille, France">
-            <button>Search</button>
-        </div>
-        <!-- <form class="align">
-            <i class="fas fa-map-marker-alt more"></i>
-            <input type="text" placeholder="Marseille, France">
-            <button>Search</button>
-        </form> -->
+        <form>
+            <i class="fas fa-map-marker-alt geo-marker"></i>
+            <input type="search" placeholder="Marseilles, France" class="search-bar">
+            <button type="button" class="blue-btn"><b>Search</b></button>
+        </form>
         <!--Filter Bar-->
-        <section class="filters">
+        <p>Filters</p>
+        <div class="filter-bar">
+            <button class="filter-icons" type="button">
+                <i class="icons fas fa-money-bill-wave"></i>
+                <span>Low cost</span>
+            </button>
+            <button class="filter-icons" type="button">
+                <i class="icons fas fa-child"></i>
+                <span>Family-friendly</span>
+            </button>
+            <button class="filter-icons" type="button">
+                <i class="icons fas fa-heart"></i>
+                <span>Romantic</span>
+            </button>
+            <button class="filter-icons">
+                <i class="icons fas fa-dog"></i>
+                <span>Pets allowed</span>
+            </button>
+        </div>
+        <!-- <section class="filters">
             <p>Filters</p>
             <div class="filtericon money-bill">
                 <a href="#"><i class="fas fa-money-bill-wave"></i>
@@ -64,7 +79,7 @@
                     <p>Pets allowed</p>
                 </div></a>
             </div>
-        </section>
+        </section> -->
         <div class="cityinfo">
             <div class="infoicon">
                 <i id="info" class="fas fa-info"></i>

@@ -49,10 +49,6 @@ header {
 }
 
 /*Header and Search bar*/
-/* main{
-    padding: 0px 35px 0px 35px;
-}main */
-
 h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 19px;
@@ -67,68 +63,63 @@ h3 {
     padding-left: 35px;
 }
 
-.align {
-    /* display: flex;
-    background-color: #efefef; */
-    /* width: 45px;
-    height: 45px;
-    border-radius: 15px 0px 0px 15px; */
-    margin-left: 35px;
+form {
+    padding-left: 35px;
+}
+
+.geo-marker {
+    background-color: #efefef;
+    padding: 18px;
+    border-radius: 15px 0px 0px 15px;
+    font-size: 12px;
 }
 
 .search-bar {
-    display: inline ;
-}
-
-.fas .fa-map-marker-alt .more, i {
-    color: black;
-    display: inline;
-    position: absolute;
-    /* margin-top: 15px;
-    margin-left: 15.9px; */
-    width: 45px;
-    height: 45px;
-    border-radius: 15px 0px 0px 15px;
-}
-
-/* .fa-map-marker-alt::before {
-    margin-top: 15px;
-    margin-left: 15px;
-} */
-
-.more {
-    background-color: #efefef;
-}
-
-input {
-    font-family: 'Raleway', sans-serif;
-    font-size: 15px;
+    padding: 15.1px;
+    border: 1px solid lightgray;
+    margin: -5px;
     font-weight: bold;
-    color: black;
-    margin-left: 45px;
-    border: 1px #efefef solid;
-    width: 200px;
-    height: 40.8px;
-    padding-left: 15px;
 }
 
-    button {
-        background-color: #0065fc;
-        color: white;
-        font-family: 'Raleway', sans-serif;
-        font-weight: bold;
-        text-align: center;
-        margin-left: 194px;
-        border: none;
-        border-radius: 0px 15px 15px 0px;
-        width: 85px;
-        height: 45px;
-        margin: 0px 0px 0px 0px;
-        padding: 15px 15px 15px 15px;
-    }
+.blue-btn {
+    font-family: 'Raleway', sans-serif;
+    background-color:#0065fc;
+    color: white;
+    border-radius: 0px 15px 15px 0px;
+    padding: 16px;
+    font-size: 12px;
+    border-style: none;
+    margin-left: 1px;
+}
 
 /*filters*/
-.filters {
+.filter-icons {
+    color: #0065fc;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 20px;
+    font-size: 1rem;
+    padding: 0px 10px 0px 5px;
+    text-align: left;
+    margin: 10px;
+}
+
+.filter-icons span {
+    padding: 0px 15px 0px 0px;
+    color: black;
+}
+
+icons {
+    background-color: #deebff;
+    height: 25px;
+    width: 33px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 9px;
+    vertical-align: middle;
+    margin-left: -9px;
+}
+/* .filters {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -157,10 +148,10 @@ input {
     margin-left: 10px;
 }
 .filtericon {
-    /* display: flex;
+    display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: center; */
+    align-items: center;
     margin-left: 20px;
 }
 
@@ -172,8 +163,8 @@ input {
 }
 
 .filtericon .fas{
-    /* display: flex;
-    align-items: center; */
+    display: flex;
+    align-items: center;
     background-color: #deebff;
     border-radius: 25px;
     width: 40px;
@@ -194,7 +185,7 @@ input {
 .filtername p {
     font-size: 15px;
     margin: 0px;
-}
+} */
 
 /* info sentence */
 .cityinfo {
@@ -335,7 +326,8 @@ main {
     width: 146px;
     background-color: #efefef;
     color: black;
-    font-size: 15px
+    font-size: 15px;
+    border: none;
 }
 
   /* ASIDE */

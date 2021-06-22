@@ -8,7 +8,71 @@ body {
     margin: 0px;
 }
 
-header {
+/* body {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+} */
+
+nav {
+    /* background-color: black; */
+    margin: 0;
+    overflow: hidden;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li a {
+    display: block;
+    line-height: 3em;
+    padding: 1em 3em;
+    text-decoration: none;
+}
+
+nav ul li:first-child {
+    margin-right: auto;
+}
+
+.logo {
+    width: 95px;
+    height: 50px;
+}
+
+.blue, a {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: black; 
+}
+
+.blue a:hover {
+    color: #0065fc;
+    /* padding-top: 25px;  */
+    border-top-style: solid;
+    border-top-width: 2px;
+}
+
+.sign-up-btn a {
+    font-weight: bold;
+    color:#0065fc;
+}
+
+.sign-up-btn a:hover {
+    color: #deebff;
+}
+
+ul {
+    list-style-type: none;
+}
+/* header {
     display: flex;
     justify-content: space-between;
     padding: 11.6562px 35px 0px 35px;
@@ -46,7 +110,7 @@ header {
 
 .sign-up-btn a:hover {
     color: #deebff;
-}
+} */
 
 /*Header and Search bar*/
 h1 {
@@ -588,7 +652,7 @@ footer {
     justify-content: flex-start;
     align-items: baseline;
     font-family: 'Raleway', sans-serif;
-    margin-right: 45px;
+    margin-right: 170px;
 }
 
 .footercolumns li {

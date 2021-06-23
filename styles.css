@@ -8,12 +8,6 @@ body {
     margin: 0px;
 }
 
-/* body {
-    margin: 0;
-    padding: 0;
-    font-size: 15px;
-} */
-
 nav {
     /* background-color: black; */
     margin: 0;
@@ -72,46 +66,6 @@ nav ul li:first-child {
 ul {
     list-style-type: none;
 }
-/* header {
-    display: flex;
-    justify-content: space-between;
-    padding: 11.6562px 35px 0px 35px;
-    padding-right: 35px;
-}
-
-.logo {
-    width: 95px;
-    height: 50px;
-}
-
-.nav links, li {
-    display: inline-block;
-    padding: 0px 45px;
-}
-
-
-.blue, a {
-    font-family: 'Raleway', sans-serif;
-    text-decoration: none;
-    color: black; 
-}
-
-.blue a:hover {
-    color: #0065fc;
-    padding-top: 25px; 
-    border-top-style: solid;
-    border-top-width: 2px;
-}
-
-.sign-up-btn a {
-    font-weight: bold;
-    color:#0065fc;
-}
-
-.sign-up-btn a:hover {
-    color: #deebff;
-} */
-
 /*Header and Search bar*/
 h1 {
     font-family: 'Raleway', sans-serif;
@@ -151,7 +105,7 @@ form {
     background-color:#0065fc;
     color: white;
     border-radius: 0px 15px 15px 0px;
-    padding: 16px;
+    padding: 1px;
     font-size: 12px;
     border-style: none;
     margin-left: 1px;
@@ -210,73 +164,6 @@ span p {
     vertical-align: middle;
     margin-left: -9px;
 }
-/* .filters {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-    padding: 0px;
-    margin-top: 15px;
-    padding-left: 35px;
-}
-
-.fa-money-bill-wave::before {
-    margin-left: 10px;
-}
-
-.fa-child::before {
-    margin-left: 13px;
-}
-
-.fa-heart::before {
-    margin-left: 11px;
-}
-
-.fa-dog::before {
-    margin-left: 10px;
-}
-.filtericon {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    margin-left: 20px;
-}
-
-.filtericon i{
-    display: flex;
-    align-items: center;
-    color: #0065fc;
-    margin-left: 5px;
-}
-
-.filtericon .fas{
-    display: flex;
-    align-items: center;
-    background-color: #deebff;
-    border-radius: 25px;
-    width: 40px;
-    height: 40px;
-    margin: 0px 0px 0px 0px;
-}
-
-.filtericon a:hover {
-    color: #0065fc;
-}
-
-.filtername{
-    border: 1px solid #efefee;
-    border-radius: 25px;
-    padding: 10px 15px 10px 55px; 
-}
-
-.filtername p {
-    font-size: 15px;
-    margin: 0px;
-} */
 
 /* info sentence */
 .cityinfo {
@@ -510,10 +397,6 @@ aside h1 {
     margin: -6px;
 }
 
-.grey {
-    color: #efefee;
-}
-
 .actbox {
     display: flex;
     flex-direction: row;
@@ -614,14 +497,6 @@ aside h1 {
     margin-top: 2px;
 }
 
-.right {
-    /* margin-left: 35px; */
-}
-
-.switch {
-    /* margin-bottom: 55px; */
-}
-
 .noswitch {
     margin-bottom: 0px;
 }
@@ -664,70 +539,94 @@ footer {
 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px){
     /* Makes main and aside stack up in mobile view */
     aside {
         width: 94%;
         border-radius: 0px;
-        /* padding: 3px;
-        border-radius: 0px; */
     }
     /* Makes cards stack in mobile view */
     .boxes {
         width: 100%;
     }
 
-    .mobile-button {
-        background-color:#0065fc;
-        color: white;
-        border-radius: ;
+.mobile-button {
+    display: inline-flex;
+    font-family: 'Raleway', sans-serif;
+    background-color:#0065fc;
+    color: white;
+    border-radius: 13px 13px 13px 13px;
+    border-style: none;
+    padding: 16px;
+    font-size: 12px;
+}
+
+.blue-btn {
+    display: none;
+}
+
+.cash {
+    order: 1;
+}
+
+.kids {
+    order: 3;
+}
+
+.rom {
+    order: 2;
+}
+
+.animal {
+    order: 4;
+}
+
+footer {
+    margin-right: -15px;
+    height: 449px;
+}
+
+.greyboxes main {
+    max-width: 100%;
+    padding-left: 23px;
+    background-color: white;
+}
+
+.title h1 {
+    font-size: 22px;
+    margin-left: 0px;
+}
+
+.grey-button {
+    background-color: white;
+    margin-top: 10px;
+}
+
+.greyboxes {
+    flex-direction: column-reverse;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+ul .footercolumns {
+    padding-left: 35px;
+}
+
+.act {
+    margin-left: 20px;
+}
+
+.boxes-aside {
+    width: 92%%;
+}
+
+.image-container img {
+    height: 27vh;
     }
 
-    .blue-btn {
-        display: none;
-    }
-
-    footer {
-        margin-right: -15px;
-        height: 449px;
-    }
-
-    .greyboxes main {
-        max-width: 100%;
-        padding-left: 23px;
-        background-color: white;
-    }
-
-    .title h1 {
-        font-size: 22px;
-        margin-left: 0px;
-    }
-
-    .grey-button {
-        background-color: white;
-        margin-top: 10px;
-    }
-
-    .greyboxes {
-        flex-direction: column-reverse;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
-    ul .footercolumns {
-        padding-left: 35px;
-    }
-
-    .act {
-        margin-left: 20px;
-    }
-
-    .boxes-aside {
-        width: 92%%;
-
-    .image-container img {
-        height: 27vh;
-    }
-
-    
-
+nav ul li a {
+    display: inline-block;
+    flex-wrap: wrap;
+    width: 50%;
+}
+}

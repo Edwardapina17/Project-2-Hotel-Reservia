@@ -105,7 +105,7 @@ form {
     background-color:#0065fc;
     color: white;
     border-radius: 0px 15px 15px 0px;
-    padding: 1px;
+    padding: 17px;
     font-size: 12px;
     border-style: none;
     margin-left: 1px;
@@ -143,6 +143,7 @@ span p {
     padding: 0px 10px 0px 5px;
     text-align: left;
     margin: 10px;
+    white-space: nowrap;
 }
 
 .filter-icons span {
@@ -195,6 +196,10 @@ span p {
 #infosen {
     font-size: 15px;
     margin: 0px 0px 0px 40px;
+}
+
+#infosen span {
+    display: block;
 }
 
 /* acommdations & most popular */
@@ -550,6 +555,48 @@ footer {
         width: 100%;
     }
 
+nav ul {
+    flex-wrap: wrap;
+}
+
+nav ul li:nth-child(1) {
+    order: 1;
+}
+
+nav ul li:nth-child(2) {
+    order: 3;
+}
+
+nav ul li:nth-child(3) {
+    order: 4;
+}
+
+nav ul li:nth-child(4) {
+    order: 2;
+}
+
+.blue {
+    border-bottom: 3px solid #efefee;
+}
+
+.filter-section {
+    flex-wrap: wrap;
+}
+
+.filter-section p {
+    width: 100%;
+    padding-left: 10px;
+    
+}
+
+.cityinfo {
+    padding-left: 10px;
+}
+
+#infosen span {
+    display: inline-block;
+}
+
 .mobile-button {
     display: inline-flex;
     font-family: 'Raleway', sans-serif;
@@ -557,8 +604,9 @@ footer {
     color: white;
     border-radius: 13px 13px 13px 13px;
     border-style: none;
-    padding: 16px;
+    padding: 18px;
     font-size: 12px;
+    margin-left: -10px;
 }
 
 .blue-btn {

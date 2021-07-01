@@ -157,13 +157,14 @@ span p {
 
 .icon-bak {
     background-color: #deebff;
-    height: 26px;
+    height: 28px;
     width: 39px;
     border-radius: 50%;
     text-align: center;
     padding-top: 9px;
     vertical-align: middle;
     margin-left: -9px;
+    font-size: 19px;
 }
 
 /* info sentence */
@@ -592,18 +593,39 @@ nav ul li:nth-child(4) {
     border-bottom: 3px solid #0065fc;
 }
 
+.logo-mobile a {
+    padding: 24px 24px 0px 22px;
+}
+
 .sign-up-btn a {
     padding: 22px 31px 24px 109px;
 }
 
+.accom-mobile a {
+    padding: 24px 24px 0px 32px;
+}
+
+.activ-mobile a {
+    padding: 24px 24px 0px 62px;
+}
+
+.filter-icons {
+    margin: 7px;
+}
+
 .filter-section {
     flex-wrap: wrap;
+    padding-left: 35px;
 }
 
 .filter-section p {
     width: 100%;
     padding-left: 10px;
     
+}
+
+article h1 {
+    font-size: 23px;
 }
 
 .cityinfo {
@@ -648,7 +670,7 @@ nav ul li:nth-child(4) {
 
 footer {
     margin-right: -15px;
-    height: 449px;
+    height: 450px;
 }
 
 .greyboxes main {

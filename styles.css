@@ -316,17 +316,20 @@ main {
 
   /* ASIDE */
 aside {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
     /* overflow: hidden; */
     background-color: #efefee;
     border-radius: 25px;
     width: 30%;
     height: 100%;
     padding: 0px 19px 25px 19px;
+}
+
+.popwrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 aside h1 {
@@ -545,11 +548,102 @@ footer {
 
 }
 
+@media only screen and (max-width: 768px) {
+.greyboxes {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.filter-section {
+    flex-wrap: wrap;
+    padding-left: 33px;
+}
+
+.filter-section p {
+    width: 100%;
+    padding-left: 6px;
+    font-size: 18px;
+}
+
+.greyboxes main {
+    max-width: 98%;
+    overflow: hidden;
+}
+
+aside {
+    width: 90%;
+    margin-bottom: 15px;
+}
+
+.popwrap {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: flex-start; */
+    flex-wrap: wrap;
+}
+
+.boxes-aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 28%;
+}
+
+.image-container{
+    width: 100%;
+}
+
+.description {
+    width: 96%;
+    height: 162px;
+}
+
+.description h1{
+    margin: 0px;
+    height: 40%;
+}
+
+.description p {
+    height: 30%;
+    margin: 0px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 19vh;
+    border-radius: 14px 14px 0px 0px;
+    object-fit: none;
+    object-position: none;
+}
+
+.act {
+    margin-left: 20px;
+}
+}
+
 @media only screen and (max-width: 600px){
     /* Makes main and aside stack up in mobile view */
     aside {
-        width: 94%;
+        width: 100%;
         border-radius: 0px;
+        padding: 0px;
+    }
+
+    aside h1 {
+        padding-left: 12px;
+    }
+
+    .popwrap {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center;
+        align-items: flex-start; */
+        flex-wrap: wrap;
     }
     /* Makes cards stack in mobile view */
     .boxes {
@@ -624,9 +718,9 @@ nav ul li:nth-child(4) {
     
 }
 
-article h1 {
+/* article h1 {
     font-size: 23px;
-}
+} */
 
 .cityinfo {
     padding-left: 10px;
@@ -670,12 +764,13 @@ article h1 {
 
 footer {
     margin-right: -15px;
-    height: 450px;
+    height: 100%;
+    width: 100%;
 }
 
 .greyboxes main {
     max-width: 100%;
-    padding-left: 23px;
+    padding-left: 9px;
     background-color: white;
 }
 
@@ -704,11 +799,36 @@ ul .footercolumns {
 }
 
 .boxes-aside {
-    width: 92%%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 92%;
+}
+
+.image-container{
+    width: 100%;
+    height: 100%;
+}
+
+.description {
+    width: 96%;
+    height: 162px;
+}
+
+.description h1{
+    margin: 0px;
+    height: 40%;
+}
+
+.description p {
+    height: 30%;
+    margin: 0px;
 }
 
 .image-container img {
     height: 27vh;
+    border-radius: 14px 0px 0px 14px;
     }
 
 nav ul li a {

@@ -1,15 +1,10 @@
 /*LOGO AND NAV*/
-/* *{
-    outline: 1px dotted red;
-} */
-
 body {
     background-color:white;
     margin: 0px;
 }
 
 nav {
-    /* background-color: black; */
     margin: 0;
     overflow: hidden;
 }
@@ -49,7 +44,6 @@ nav ul li:first-child {
 
 .blue a:active {
     color: #0065fc;
-    /* padding-top: 25px;  */
     border-top-style: solid;
     border-top-width: 2px;
 }
@@ -251,7 +245,6 @@ main {
     border-radius: 25px;
     box-shadow: 5px 5px 8px 1px  lightgrey;
     padding: 5px;
-    /* margin: 10px; */
 }
 
 .boxes h1{
@@ -262,8 +255,6 @@ main {
 .boxes ul {
     display: flex;
     flex-direction: row;
-    /* justify-content: flex-start;
-    align-items: flex-start; */
     padding: 0px;
     margin: 0px 0px 10px 0px;
 }
@@ -315,7 +306,6 @@ main {
 
   /* ASIDE */
 aside {
-    /* overflow: hidden; */
     background-color: #efefee;
     border-radius: 25px;
     width: 30%;
@@ -362,7 +352,6 @@ aside h1 {
 .image-container {
     width: 40%;
     overflow: hidden;
-     /* height: 100%; */
 }
 .image-container img {
     width:100%;
@@ -392,8 +381,6 @@ aside h1 {
 .description ul {
     display: flex;
     flex-direction: row;
-    /* justify-content: flex-start;
-    align-items: flex-start; */
     padding: 0px;
     margin: 0px 0px 10px 0px;
 }
@@ -412,7 +399,6 @@ aside h1 {
     color: #efefef;
 } 
 
-
 .description .fa-star::before {
     margin: -6px;
 }
@@ -422,8 +408,6 @@ aside h1 {
     flex-direction: row;
     justify-content: space-between;
     padding: 35px 35px 35px 35px
-  /*   width: 50%; */
-    /* outline: 5px dashed orange; */
 }
 
 .card {
@@ -440,7 +424,6 @@ aside h1 {
 }
 
 .tall-wrap, .small-wrap {
-    /* border: 3px solid blue; */
     width: 23%;
 }
 

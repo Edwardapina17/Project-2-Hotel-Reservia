@@ -117,7 +117,7 @@ form {
     align-items: flex-start;
 }
 
-span p {
+.filter-section p {
     padding-left: 35px;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
@@ -211,19 +211,19 @@ span p {
     padding-right: 20px;
 }
   /* Main */
-.greyboxes main {
+.greyboxes .greymain {
     max-width: 60%;
     overflow: hidden;
 }
 
-main {
+.greymain {
     background-color: #efefee;
     border-radius: 25px;
     padding: 10px;
 }
 
 
-.title h1 {
+.title h2 {
     font-family: 'Raleway', sans-serif;
     margin-bottom: 20px;
     margin-left: 23px;
@@ -247,7 +247,7 @@ main {
     padding: 5px;
 }
 
-.boxes h1{
+.boxes h2{
     font-family: 'Raleway', sans-serif;
     padding-left: 0px;
 }
@@ -327,7 +327,8 @@ aside {
     flex-wrap: wrap;
 }
 
-aside h1 {
+aside h2 {
+    font-family: 'Raleway', sans-serif;
     padding-left: 0px;
 }
 
@@ -366,7 +367,7 @@ aside h1 {
     padding-left: 10px;
 }
 
-.description h1 {
+.description h2 {
     padding-left: 0px;
     margin-top: 10px;
     height: 25%;
@@ -455,7 +456,7 @@ aside h1 {
     height: 200px;
 }
 
-#Pomèguesfirsttop img {
+#Pomguesfirsttop img {
     height: 210px;
 }
 
@@ -493,7 +494,9 @@ footer {
     padding-top: 41px;
     padding-left: 50px;
 }
-
+.actbox h2 {
+    font-family: 'Raleway', sans-serif;
+}
 @media only screen and (max-width: 768px) {
 .greyboxes {
     display: flex;
@@ -503,7 +506,7 @@ footer {
     padding-left: 15px;
 }
 
-.boxes h1 {
+.boxes h2 {
     height: 16px;
 }
 
@@ -527,7 +530,7 @@ footer {
     font-size: 18px;
 }
 
-.greyboxes main {
+.greyboxes .greymain {
     max-width: 98%;
     overflow: hidden;
 }
@@ -587,7 +590,7 @@ aside {
     object-fit: none    ;
 }
 
-#Pomèguesfirsttop h3 {
+#Pomguesfirsttop h3 {
     font-size: 16px;
     padding-left: 10px;
 }
@@ -629,16 +632,24 @@ aside {
     height: 0%;
     padding: 5px;
 }
+}
 
 @media only screen and (max-width: 600px){
 /* Makes main and aside stack up in mobile view */
+nav ul li a {
+    display: inline-block;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
 aside {
     width: 100%;
     border-radius: 0px;
     padding: 0px;
 }
 
-aside h1 {
+aside h2 {
+    font-family: 'Raleway', sans-serif;
     padding-left: 12px;
 }
 
@@ -775,13 +786,13 @@ footer {
     width: 100%;
 }
 
-.greyboxes main {
+.greyboxes .greymain {
     max-width: 100%;
     padding-left: 9px;
     background-color: white;
 }
 
-.title h1 {
+.title h2 {
     font-size: 22px;
     margin-left: 0px;
 }
@@ -852,7 +863,8 @@ border-radius: 14px 0px 0px 14px;
     margin: 0px;
 }
 
-.actbox h1 {
+.actbox h2 {
+    font-family: 'Raleway', sans-serif;
     font-size: 23px;
     padding-left: 17px;
 }
@@ -872,10 +884,6 @@ padding: 15px 0px 0px 0px;
     height: 32px;
 }
 
-#Notresecondtop img,
-#Longchampsecondbottom img,
-#Pomèguesfirsttop img,
-#Frioulfirstbottom img,
 .card img {
     height: 150px;
 }
@@ -902,8 +910,4 @@ padding: 15px 0px 0px 0px;
     padding-left: 49px;
 }
 
-nav ul li a {
-    display: inline-block;
-    flex-wrap: wrap;
-    width: 50%;
 }
